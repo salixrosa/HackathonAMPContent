@@ -1,5 +1,14 @@
 <?php
 
+$uri = $_SERVER['REQUEST_URI'];
+
+$path = parse_url($uri, PHP_URL_PATH);
+
+if ($path == '/list.json') {
+    echo file_get_contents('list.json');
+    die();
+}
+
 $filesToInclude = [
     '1-headprecustomcss',
     '1-5-customcss-open-tag',
@@ -11,7 +20,9 @@ $filesToInclude = [
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
+    'amplistandbind',
     '6 - maincontent',
+    'amp-product-card',
     '7 - footer'
 ];
 $html = '';
