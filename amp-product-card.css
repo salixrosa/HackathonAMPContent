@@ -12,8 +12,8 @@
         background: #fff;
         box-sizing: border-box;
         padding: 1rem;
-        width: 150px;
-        max-width: 250px;
+        width: 200px;
+        max-width: 350px;
         flex-grow: 1;
         margin: 0.125rem;
         display: inline-block;
