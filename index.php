@@ -2,19 +2,21 @@
 
 $filesToInclude = [
     '1-headprecustomcss',
-    '2-customcss',
-    'add-to-cart-btn-styles',
+    '1-5-customcss-open-tag',
+    '2-customcss.css',
+    'add-to-cart-btn-styles.css',
+    '2-5-customcss-close-tag',
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
-    'add-to-cart-btn',
-    //'6 - maincontent',
+    '6 - maincontent',
     '7 - footer'
 ];
 $html = '';
 foreach($filesToInclude as $fileToInclude) {
 
-    $html .= file_get_contents($fileToInclude . '.html');
+    $fileName = str_replace('.css.html', '.css', $fileToInclude . '.html');
+    $html .= file_get_contents($fileName);
 }
 
 echo $html;
