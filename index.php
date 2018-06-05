@@ -12,7 +12,7 @@ $filesToInclude = [
     '4-headerthroughsidebar',
     '5-ampsidebar',
     //'6 - maincontent',
-    'amp-product-card',
+    'amp-added-to-cart',
     '7 - footer'
 ];
 $html = '';
