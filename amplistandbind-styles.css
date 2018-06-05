@@ -1,1 +1,10 @@
-/* There isn't actually any styling I need yet */
+.modal-header {
+    background: #041e42;
+    color: white;
+    padding: 1.2rem 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    font-weight: bold;
+    height: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+}

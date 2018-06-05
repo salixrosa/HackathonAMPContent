@@ -10,6 +10,7 @@ $filesToInclude = [
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
+    'amplistandbind',
     '6 - maincontent',
     '7 - footer'
 ];
