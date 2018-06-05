@@ -1,0 +1,64 @@
+<div class="modal">
+    <div class="modal-header">
+        Added to Cart
+    </div>
+    <div class="modal-back">
+
+    </div>
+    <div class="modal-body">
+        
+        <div class="trap-modal-prod-info">
+            <div class="product-card no-margin-right">
+                <a class="img-container" href="/blaze-outdoor-products/grill-cart-for-40-inch-5-burner-gas-grill-blz-5-cart">
+                    <div class="image">
+                        <amp-img alt="Blaze Grill Cart For 40-Inch 5-Burner Gas Grill - BLZ-5-CART image" width="175"
+                                 height="175" layout="responsive" src="https://cdn.shocho.co/sc-image/a/d/d/5/add51c1f8a4efcbb2948b623ea9ebf78.jpg?i10c=img.resize(width:220,height:220)"></amp-img>
+                    </div>
+                </a>
+                <div class="product-card-info">
+                    <strong> <i class="icon checkmark no-border"></i> Added to Cart</strong>
+                    <a class="name" href="/blaze-outdoor-products/grill-cart-for-40-inch-5-burner-gas-grill-blz-5-cart">Blaze Grill Cart For 40-Inch 5-Burner Gas Grill - BLZ-5-CART</a>
+                    <div class="price">$514.99</div>
+                    <br />
+                    <a class="block" href="https://www.shopperschoice.com/cart">
+                        <button class="btn-block btn-hollow btn-alt">
+                            Continue to Cart<svg class="icon m-l-0 rotate-270" viewBox="0 0 25 25"><use xlink:href="#chevron-down"></use></svg>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h2>You Might Also Like</h2>
+
+        <div class="grid">
+        <amp-list width="auto"
+            height="400"
+            layout="fixed-height"
+            src="list.json"
+            class="m1 grid">
+            <template type="amp-mustache"
+                      id="amp-template-id">
+
+                <div class="product-card">
+                    <a class="img-container" href="{href}}">
+                        <div class="image">
+                            <amp-img alt="{{imgalt}}" width="175"
+                                     height="175" layout="responsive" src="{{imgsrc}}"></amp-img>
+                        </div>
+                    </a>
+                    <div class="product-card-info">
+                        <a class="name" href="{{href}}">{{name}}</a>
+                        <div class="price">{{price}}</div>
+                        <div class="rating-container"></div>
+                    </div>
+                </div>
+                
+            </template>
+
+        </amp-list>
+    </div>
+</div>
