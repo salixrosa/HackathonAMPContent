@@ -1,8 +1,18 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$filesToInclude = [
+    '1-headprecustomcss',
+    '2-customcss',
+    '3-fromcssthroughsvgs',
+    '4-headerthroughsidebar',
+    '5-ampsidebar',
+    '6 - maincontent',
+    '7 - footer'
+];
+$html = '';
+foreach($filesToInclude as $fileToInclude) {
+    
+    $html .= file_get_contents($fileToInclude . '.html');
+}
 
+echo $html;
