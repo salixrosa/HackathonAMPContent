@@ -10,7 +10,7 @@ $filesToInclude = [
     '4-headerthroughsidebar',
     '5-ampsidebar',
     //'6 - maincontent',
-    'add-to-cart-btn',
+    'amp-product-card',
     '7 - footer'
 ];
 $html = '';
