@@ -11,10 +11,9 @@ $filesToInclude = [
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
-    'amplistandbind',
     '6 - maincontent',
-    'amp-product-card',
-    '7 - footer'
+    'amplistandbind',
+    '7 - footer',
 ];
 $html = '';
 foreach($filesToInclude as $fileToInclude) {
