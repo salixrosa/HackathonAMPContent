@@ -11,8 +11,8 @@ $filesToInclude = [
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
-    //'6 - maincontent',
-    'amp-product-card',
+    '6 - maincontent',
+    //'amp-product-card',
     '7 - footer'
 ];
 $html = '';
