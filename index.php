@@ -6,6 +6,7 @@ $filesToInclude = [
     '2-customcss.css',
     'add-to-cart-btn-styles.css',
     'amplistandbind-styles.css',
+    'amp-product-card.css',
     '2-5-customcss-close-tag',
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
