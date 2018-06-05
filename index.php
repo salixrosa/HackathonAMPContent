@@ -9,7 +9,8 @@ $filesToInclude = [
     '3-fromcssthroughsvgs',
     '4-headerthroughsidebar',
     '5-ampsidebar',
-    '6 - maincontent',
+    //'6 - maincontent',
+    'add-to-cart-btn',
     '7 - footer'
 ];
 $html = '';
