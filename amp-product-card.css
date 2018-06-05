@@ -1,0 +1,89 @@
+    .grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin: -0.25rem;
+        justify-content: center
+    }
+
+    .product-card-atc {
+        background: #fff;
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 150px;
+        max-width: 250px;
+        flex-grow: 1;
+        margin: 0.125rem;
+        display: inline-block;
+    }
+
+    .product-card-atc .img-container {
+        box-sizing: border-box
+    }
+
+    .product-card-atc .name {
+        height: 3.75em;
+        line-height: 1.25em;
+        overflow: hidden;
+        display: block
+    }
+
+    .product-card-atc .title {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: bold;
+        color: #333
+    }
+
+    .product-card-atc .title:hover {
+        text-decoration: underline
+    }
+
+    .product-card-atc .image {
+        text-align: center;
+        position: relative
+    }
+
+    .product-card-atc .image img {
+        max-width: 100%;
+        height: 100%
+    }
+
+    .product-card-atc .star-ratings {
+        font-size: 180%;
+        height: 3rem
+    }
+
+    .product-card-atc .add-to-cart {
+        padding: 0.5rem 1.1rem;
+        width: auto;
+        min-width: 100%
+    }
+
+    .product-card-atc .item-id {
+        padding-top: 0.5rem
+    }
+
+    .product-card.fade {
+        opacity: 0;
+        filter: alpha(opacity=0)
+    }
+
+    .product-card.fade.in {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -moz-animation: fadeIn 0.25s;
+        -webkit-animation: fadeIn 0.25s;
+        -o-animation: fadeIn 0.25s;
+        -ms-animation: fadeIn 0.25s;
+        animation: fadeIn 0.25s
+    }
+
+    .product-card.horizontal .product-card-info {
+        padding-left: 3rem
+    }
+
+    .product-card-atc .rating-container {
+        min-height: 48px
+    }

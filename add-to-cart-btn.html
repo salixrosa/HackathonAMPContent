@@ -1,7 +1,15 @@
-<div class="add-to-cart-container btn-large" data-button-type="add-to-cart">
+<div class="add-to-cart-container btn-large">
     <span class="inline-block add-to-cart-button-container">
-        <button class="add-to-cart text-uppercase progress-button ga-atc-secondary" data-ajax-add-to-cart="2980077" data-qty="1" data-required-options="" type="button">
-            Add to Cart
-        </button>
+        <form method="post"
+              action-xhr="https://www.shopperschoice.com/api/widgets/components/AddToCartButtonWidget/addItemToOrder"
+              target="_top">
+            <input type="hidden" name="items[0][id]" value="2893282" />
+            <input type="hidden" name="items[0][qty]" value="1" />
+            <input type="hidden" name="items[0][isTdi]" value="false" />
+            <input type="hidden" name="siteId" value="1" />
+            <button type="submit" class="add-to-cart text-uppercase progress-button ga-atc-secondary">
+                Add to Cart
+            </button>
+        </form>
     </span>
 </div>
